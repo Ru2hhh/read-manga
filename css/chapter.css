@@ -1,0 +1,66 @@
+.chapter_control {
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	top: 0;
+	left: 0;
+	background-color: #131516;
+    box-shadow: 5px 5px 16px -4px #8e8e8e;
+    color: white;
+}
+.chapter_control .middle {
+	text-align: center;
+	margin: 15px;
+}
+.chapter_control .middle button {
+	line-height: 40px;
+    height: 40px;
+    width: 40px;
+    margin: 0 3px;
+    background-color: #048CD9;
+    font-size: 18px;
+    color: white;
+    border-radius: 3px;
+    border: none;
+}
+button {
+    cursor: pointer;
+}
+.svg-inline--fa.fa-w-10 {
+    width: 0.625em;
+    height: 1em;
+}
+.chap_content {
+	text-align: center;
+}
+img {
+	max-width: 100%;
+    height: auto;
+}
+.manga_img {
+	font-size: 0;
+}
+.chap_content h1 {
+	margin-top: 100px;
+	color: white;
+}
+.chapter_list::after {
+	position: absolute;
+    top: 0;
+    right: 0;
+    content: "\f0dc";
+    background: 0 0;
+    width: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.chapter_control .middle .chapter_list {
+	height: 40px;
+	border-radius: 4px;
+	background:#048CD9;
+	outline: none;
+	color: #e8e6e3;
+	border: none;
+    background-color: rgb(35, 38, 40);
+        padding: 10px 30px 10px 16px;
+}

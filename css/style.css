@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+  background-color: #131516;;
+  font-family: 'Roboto', sans-serif;
+
+}
+.card {
+	background: black;
+	width:800px;
+	height:400px;
+	position:absolute;
+	left:0;
+	right:0;
+	margin:auto;
+	top:0;
+	bottom:0;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.55);
+}
+.card-left {
+	width:40%;
+    height:400px;
+    float:left;
+    overflow:hidden;
+    background:transparent;
+}
+.card-left img {
+	width:100%;
+      height:auto;
+      border-radius:10px 0 0 10px;
+      -webkit-border-radius:10px 0 0 10px;
+      -moz-border-radius:10px 0 0 10px;
+      position:relative;
+}
+.card-right h1 {
+	 color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    text-align:left;
+    font-size:40px;
+    margin:30px 0 0 0;
+    padding:0 0 0 40px;
+    letter-spacing:1px;
+}
+ul {
+    list-style-type:none;
+    padding:0 0 0 40px;
+    margin:10px 0 0 0;
+        
+    }
+li {
+    display:inline;
+    color:#e3e3e3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    font-size:14px;
+    padding:0 40px 0 0;
+    }	
